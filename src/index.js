@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import home from './components/home';
+import Home from './components/Home';
 
-const el =document.getElementById('root');
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const App =() => {
   return( 
     <div>
-      <home/>
+      <Home/>
     </div>
   );
 }
